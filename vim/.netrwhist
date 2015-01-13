@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/toru/source/RoboCar/RoboCar_Work'
+let g:netrw_dirhist_2='/home/toru/source/cpp/func'
+let g:netrw_dirhist_3='/home/toru/my_dir/tmp_dir/nishikawa_src/obstacle_detection/src'
+let g:netrw_dirhist_4='/home/toru/ros_hydro_ws/src/kobuki_move_pkg'
+let g:netrw_dirhist_5='/home/toru/.ssh'
