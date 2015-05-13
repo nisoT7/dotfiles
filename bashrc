@@ -106,12 +106,15 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-#using groovy
-#source /opt/ros/groovy/setup.bash
-#source ~/ros_groovy_ws/devel/setup.bash
+#user alias
+alias ros="source /opt/ros/indigo/setup.bash"
+alias indigo="source ~/ros/indigo/devel/setup.bash && cd ~/ros/indigo"
+alias research="source ~/ros/research/devel/setup.bash && cd ~/ros/research"
+alias robocup="source ~/ros/robocup/devel/setup.bash && cd ~/ros/robocup/"
+alias turtlebot="source ~/turtlebot/turtlebot/devel/setup.bash && cd ~/turtlebot/"
 
-#using hydro
-source /opt/ros/hydro/setup.bash
-source ~/ros_hydro_ws/devel/setup.bash
+alias rosicat="cd ~/ros/indigo && catkin_make && cd -"
+alias rosrcat="cd ~/ros/research && catkin_make && cd -"
 
-alias roscat="cd ~/ros_hydro_ws && catkin_make && cd -"
+#using ros indigo
+source /opt/ros/indigo/setup.bash

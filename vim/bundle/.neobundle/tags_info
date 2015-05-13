@@ -1,8 +1,14 @@
 Align
+caw.vim
 cpp-vim
 grep.vim
+neco-look
 neobundle.vim
+neocomplcache
+neosnippet
+neosnippet-snippets
 nerdtree
+ros.vim
 syntastic
 vim-autoclose
 vim-quickrun
